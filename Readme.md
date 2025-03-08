@@ -1,23 +1,17 @@
-# 📝 Binary Classification NLP  
+📝 Binary Classification NLP
 
-Este proyecto implementa un modelo de clasificación binaria utilizando procesamiento de lenguaje natural (NLP). Se entrena una red neuronal para predecir si la reseña fue positiva o negativa, es decir (1 o 0).  
+Este proyecto implementa un modelo de clasificación binaria utilizando procesamiento de lenguaje natural (NLP). Se entrena una red neuronal para predecir si una reseña fue positiva (1) o negativa (0).
 
----
+🎯 Objetivo
 
-## 🎯 Objetivo  
+Desarrollar un modelo de clasificación binaria que utilice técnicas de NLP y redes neuronales para realizar predicciones precisas. El enfoque está en comprender el funcionamiento de una red neuronal de clasificación binaria.
 
-Desarrollar un modelo de clasificación binaria que utilice técnicas de NLP y redes neuronales para realizar predicciones precisas.  
-El enfoque está en comprender el funcionamiento de una red neuronal de clasificación binaria. 
+🚀 Instalación
 
----
+Para obtener una copia local del proyecto, sigue estos pasos:
 
-## 🚀 Instalación  
+1️⃣ Clonar el repositorio:
 
-Para obtener una copia local del proyecto, se llevan acabo los siguientes pasos:  
-
-1️⃣ Clonar el repositorio:  
-
-```bash
 git clone https://github.com/DemianM21/binary_classification_NLP.git
 cd binary_classification_NLP
 
@@ -31,9 +25,6 @@ venv\Scripts\activate     # Windows
 
 pip install -r requirements.txt
 
-
----
-
 ▶️ Ejecución
 
 Para entrenar el modelo y visualizar los resultados, ejecuta:
@@ -41,9 +32,6 @@ Para entrenar el modelo y visualizar los resultados, ejecuta:
 python main.py
 
 Esto generará una gráfica con los datos y el resultado del entrenamiento.
-
-
----
 
 📁 Estructura del Proyecto
 
@@ -54,35 +42,18 @@ Binary_classification_NLP/
 │── README.md  # Documentación
 └── requirements.txt  # Dependencias
 
-
----
-
 📝 Descripción de Archivos
 
-Src/code_binary_classification_NLP.py
-Contiene la lógica del modelo de clasificación binaria basado en NLP, utilizando vectorización de texto y una red neuronal básica.
+Src/code_binary_classification_NLP.py → Contiene la lógica del modelo de clasificación binaria basado en NLP, utilizando vectorización de texto y una red neuronal básica.
 
-main.py
-Punto de entrada del programa, donde se entrena y visualiza el modelo.
+main.py → Punto de entrada del programa, donde se entrena y visualiza el modelo.
 
-requirements.txt
-Lista de dependencias necesarias para ejecutar el proyecto.
-
-
-
----
+requirements.txt → Lista de dependencias necesarias para ejecutar el proyecto.
 
 ✨ Características
 
-✔️ Modelo simple y eficiente basado en NLP
-✔️ Código modular y fácil de entender
-✔️ No requiere grandes recursos computacionales
-
-
----
+✔️ Modelo simple y eficiente basado en NLP✔️ Código modular y fácil de entender✔️ No requiere grandes recursos computacionales
 
 🏁 Conclusión
 
-Este proyecto fue muy interesante debido a que se logró comprender como funciona una red neuronal tipo binaria además de conocer como esta conformada, esto 
-porque, cumple con la función de realizar una clasificación donde los resultados son "1" cuando es positivo y "0" cuando es negativo, en este caso se 
-clasificaban si las reseñas de una pelicula eran buenas o malas.
+Este proyecto permitió comprender el funcionamiento de una red neuronal de clasificación binaria y cómo aplicar procesamiento de lenguaje natural para la categorización de reseñas de películas. Se logró desarrollar un modelo que clasifica correctamente las reseñas como positivas (1) o negativas (0) de manera eficiente.
