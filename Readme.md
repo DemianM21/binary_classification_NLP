@@ -83,4 +83,6 @@ Lista de dependencias necesarias para ejecutar el proyecto.
 
 🏁 Conclusión
 
-Este proyecto fue muy interesante debido a que se logró comprender como funciona una red neuronal tipo binaria además de conocer como esta conformada, esto porque, cumple con la función de realizar una clasificación donde los resultados son "1" cuando es positivo y "0" cuando es negativo, en este caso se clasificaban si las reseñas de una pelicula eran buenas o malas.
+Este proyecto fue muy interesante debido a que se logró comprender como funciona una red neuronal tipo binaria además de conocer como esta conformada, esto 
+porque, cumple con la función de realizar una clasificación donde los resultados son "1" cuando es positivo y "0" cuando es negativo, en este caso se 
+clasificaban si las reseñas de una pelicula eran buenas o malas.
